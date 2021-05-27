@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header{
+    position: fixed;
+    width: 100vw;
+}
+
+.logo {
+    height: 100px;
+    width: 135px;
+    align-items: center;
+    justify-content: center;
+    margin-right: 200px;
+
+}
+.login {
+    height: 30px;
+    width: 60px;
+    margin-right: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.logo-e-texto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #dae5e8;
+    height: 100px;
+    
+
+}
+.logo-e-texto ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.logo-e-texto ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.logo-e-texto ul li a{
+    text-decoration: none;
+    color: #2e3237;
+    padding: 8px 25px;
+    
+}
+
+/* Main */
+
+
+#home{
+    display: flex;
+    background: url('tênis-capa.jpeg') no-repeat center center/cover;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.texto-capa{
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+
