@@ -64,6 +64,7 @@ header{
     justify-content: center;
     align-items: center;
     color: #dae5e8;
+    width: 100vw;
 }
 .texto-capa {
     font-size: 3rem;
@@ -72,13 +73,19 @@ header{
     color: #dae5e8;
 }
 
-#novidades {
-    display: flex;
+.imagem {
     width: 100vw;
+    display: flex; 
     height: 100vh;
-    
 }
 
+#frase-efeito{
+    display: flex;
+    font-family: OCR A Std, monospace;
+    font-size: 70px;
+    align-items: center;
+    color:#000 ;
+}
 .titulo-produtos {
     display: grid;
     grid-template-rows: 1fr;
@@ -123,6 +130,7 @@ header{
 }
 
 .coments {
+    text-align: center;
     width: 100vw;
     height: 100vh;
 }
@@ -168,5 +176,5 @@ footer{
 
 .direitos{
     display: flex;
-    margin-right: 300px;
+    margin-right: 250px;
 }
