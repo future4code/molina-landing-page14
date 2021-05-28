@@ -56,21 +56,86 @@ header{
 /* Main */
 
 
-#home{
+#home {
     display: flex;
     background: url("./imagens-icones/tênis-capa.jpeg") no-repeat center center/cover;
     flex-direction: column;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: #dae5e8;
 }
-.texto-capa{
+.texto-capa {
     font-size: 3rem;
     text-align: center;
     margin: 40px 0px;
+    color: #dae5e8;
 }
 
+#novidades {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.titulo-produtos {
+    display: grid;
+    grid-template-rows: 1fr;
+    align-self: flex-start;
+    justify-content: center;
+}
+#produtos {
+    width: 100vw;
+    height: 100vh;
+    
+    text-align: center;
+}
+
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.card-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 10px black;
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    background-color: #dae5e8;
+    margin: 10px;
+    
+}
+
+.imagem-card {
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+
+}
+
+.coments {
+    width: 100vw;
+    height: 100vh;
+}
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
 
 /* footer */
 footer{
