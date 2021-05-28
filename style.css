@@ -8,6 +8,7 @@
 header{
     position: fixed;
     width: 100vw;
+    
 }
 
 .logo {
@@ -73,28 +74,100 @@ header{
 
 #novidades {
     display: flex;
+    width: 100vw;
+    height: 100vh;
     
 }
 
+.titulo-produtos {
+    display: grid;
+    grid-template-rows: 1fr;
+    align-self: flex-start;
+    justify-content: center;
+}
+#produtos {
+    width: 100vw;
+    height: 100vh;
+    
+    text-align: center;
+}
+
+
 .products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
     
 }
+
+.card-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 10px black;
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    background-color: #dae5e8;
+    margin: 10px;
+    
+}
+
+.imagem-card {
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+
+}
+
+.coments {
+    width: 100vw;
+    height: 100vh;
+}
+
 
 .about {
     display: flex;
     flex-direction: column;
     text-align: justify;
     align-items: center;
-    justify-content: space-between;
-    margin: 40px;
+    width: 100vw;
+    height: 100vh;
 }
 
 /* footer */
 
 footer{
+    display: flex;
     background-color: #dae5e8;
     height: 300px;
-    display: flex;
-    justify-content: center;
     align-items: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.redes{
+    display: grid;
+    align-items: flex-start;
+    
+}
+#rede-social h2{
+    margin-left: 6px ;
+}
+
+#rede-social{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+
+}
+
+.direitos{
+    display: flex;
+    margin-right: 300px;
 }
