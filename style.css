@@ -8,6 +8,7 @@
 header{
     position: fixed;
     width: 100vw;
+    
 }
 
 .logo {
@@ -72,11 +73,35 @@ header{
 
 
 /* footer */
-
 footer{
+    display: flex;
     background-color: #dae5e8;
     height: 300px;
-    display: flex;
-    justify-content: center;
     align-items: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.redes{
+    display: grid;
+    align-items: flex-start;
+    
+}
+#rede-social h2{
+    margin-left: 6px ;
+}
+
+#rede-social{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+
+}
+
+.direitos{
+    display: flex;
+    margin-right: 300px;
 }
