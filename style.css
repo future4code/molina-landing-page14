@@ -80,6 +80,11 @@ header {
 
 /* PRODUTOS */
 
+#titulo-produtos {
+    font-family: OCR A Std, monospace;
+    font-size: 35px;
+}
+
 #produtos {
     margin-top: 40px;
     width: 100vw;
@@ -142,8 +147,13 @@ header {
 
 /* COMENTÁRIOS */
 
+#titulo-comentarios {
+    font-family: OCR A Std, monospace;
+    font-size: 35px;
+}
+
 #comentarios {
-    margin-top: 40px;
+    margin-top: 50px;
     text-align: center;
     width: 100vw;
     height: 100vh;
@@ -152,8 +162,28 @@ header {
 .coments {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    align-items: center;
+    align-items: flex-start;
     justify-items: center;
+    width: 100%;
+    height: 90%;
+}
+
+.card-comentarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 10px black;
+    width: 80%;
+    height: 60%;
+    background-color: #dae5e8;
+    margin: 50px;
+}
+
+.imagem-comentarios {
+    height: 80%;
+    width: 80%;
+    padding: 10px;
 }
 
 /* SOBRE */
@@ -179,6 +209,7 @@ header {
     font-size: 35px;
     color: black;
     width: 90%;
+    height: 80%;
 }
 
 
