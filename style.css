@@ -165,11 +165,12 @@ header {
     font-size: 35px;
 }
 
-#comentarios {
+.comentarios {
     margin-top: 50px;
     text-align: center;
     width: 100vw;
     height: 100%;
+    background-color: rgba(169, 169, 169, 0.795);
 }
 
 .coments {
@@ -187,11 +188,12 @@ header {
     justify-content: center;
     align-items: center;
     box-shadow: 2px 2px 5px black;
-    width: 80%;
+    width: 60%;
     height: 80%;
     margin: 50px;
     font-size: 25px;
     font-family: OCR A Std, monospace;
+    background-color: white;
 }
 
 .imagem-comentarios {
@@ -295,5 +297,8 @@ footer{
     }
     .imagem-corrida{
         object-fit: cover;
+    }
+    .frase-efeito{
+
     }
 }
