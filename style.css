@@ -5,6 +5,7 @@
 }
 body{
     box-sizing: border-box;
+    
 }
 /* Header */
 #pageup{
@@ -18,18 +19,17 @@ header {
     justify-content: space-between;
     background-color: #dae5e8;
 }
-
+.login-icone{
+    display: flex;
+    align-items: center;
+}
 .logo {
     height: 100px;
     width: 135px;
-    align-items: center;
-    justify-content: center;
+    margin-left: 150px;
     
 }
 
-.login-icone{
-    margin-left: 500px;
-}
 .login {
     margin-right: 50px;
     align-items: center;
@@ -38,7 +38,7 @@ header {
 
 .logo-e-texto {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     
     height: 100px;
@@ -168,7 +168,6 @@ header {
 .comentarios {
     margin-top: 50px;
     text-align: center;
-    width: 100vw;
     height: 100%;
     background-color: rgba(169, 169, 169, 0.795);
 }
@@ -193,14 +192,12 @@ header {
     margin: 50px;
     font-size: 25px;
     font-family: OCR A Std, monospace;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.575);
+    text-align: justify;
+    padding: 16px;
 }
 
-.imagem-comentarios {
-    height: 80%;
-    width: 80%;
-    padding: 10px;
-}
+
 
 /* SOBRE */
 
@@ -215,13 +212,20 @@ header {
     margin-right: 10px;
     
 }
-
-#imagem-tenis {
+#imagem-tenis{
+    width: 100%;
+    
+}
+#imagem-final {
     width: 100%;
     height: 100%;
     margin-top: 20px;
 }
-
+#imagem-final img{
+    width: 500px;
+    height: 400px;
+    
+}
 .frase-sobre {
     font-family: OCR A Std, monospace;
     font-size: 50px;
@@ -293,12 +297,71 @@ footer{
     .imagem{
         display: flex;
         flex-direction: column;
+        margin-top: 50px;
         
     }
     .imagem-corrida{
         object-fit: cover;
+        width: 100%;
     }
     .frase-efeito{
+        display: flex;
+        margin-top: 50px;
+    }
+    .comentarios {
+        display: flex;
+        flex-direction: column;   
+        margin-top: 200px;
 
     }
+    .coments{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-e-texto{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        position: static;
+    }
+    #home{
+        background-size: cover;
+        width: 100%;
+        
+    }
+    .login-icone{
+        display: flex;
+        margin-left: 160px;
+    }
+    .logo{
+        display: flex;
+        margin-right: 140px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .direitos{
+        text-align: center;
+        margin-left: 16px;
+    }
+    #imagem-final{
+        margin: 0;
+        width: 100%;
+
+        
+    }
+   
 }
