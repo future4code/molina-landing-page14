@@ -1,0 +1,367 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    box-sizing: border-box;
+    
+}
+/* Header */
+#pageup{
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    box-sizing: border-box;
+    justify-content: space-between;
+    background-color: #dae5e8;
+}
+.login-icone{
+    display: flex;
+    align-items: center;
+}
+.logo {
+    height: 100px;
+    width: 135px;
+    margin-left: 150px;
+    
+}
+
+.login {
+    margin-right: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-e-texto {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    height: 100px;
+}
+
+.logo-e-texto ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.logo-e-texto ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.logo-e-texto ul li a{
+    text-decoration: none;
+    color: #2e3237;
+    padding: 8px 25px;
+}
+
+
+/* Main */
+
+/* HOME */
+
+#home {
+    display: flex;
+    background: url("./imagens-icones/tênis-capa.jpeg") no-repeat center center/cover;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: #dae5e8;
+    width: 100%;
+}
+
+.texto-capa {
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+    color: #dae5e8;
+}
+
+.imagem {
+    width: 100%;
+    display: flex; 
+    height: 100vh;
+}
+
+/* PRODUTOS */
+
+#titulo-produtos {
+    font-family: OCR A Std, monospace;
+    font-size: 35px;
+}
+
+#produtos {
+    margin-top: 40px;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+}
+
+.card-produto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px 10px black;
+    text-align: center;
+    width: 90%;
+    height: 90%;
+    background-color: #dae5e8;
+    margin: 10px;
+}
+
+.imagem-card {
+    width: 80%;
+    height: 80%;
+    padding: 10px;
+}
+
+/* IMAGEM */
+
+.imagem {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+}
+
+.frase-efeito{
+    display: flex;
+    font-family: OCR A Std, monospace;
+    font-size: 70px;
+    align-items: center;
+    color:black;
+    width: 95%;
+    height: 100%;  
+}
+
+.imagem-corrida {
+    width: 95%;
+    height: 100%;
+    margin: 20px;
+}
+
+/* COMENTÁRIOS */
+
+#titulo-comentarios {
+    font-family: OCR A Std, monospace;
+    font-size: 35px;
+}
+
+.comentarios {
+    margin-top: 50px;
+    text-align: center;
+    height: 100%;
+    background-color: rgba(169, 169, 169, 0.795);
+}
+
+.coments {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card-comentarios {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 5px black;
+    width: 60%;
+    height: 80%;
+    margin: 50px;
+    font-size: 25px;
+    font-family: OCR A Std, monospace;
+    background-color: rgba(255, 255, 255, 0.575);
+    text-align: justify;
+    padding: 16px;
+}
+
+
+
+/* SOBRE */
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+    margin-right: 10px;
+    
+}
+#imagem-tenis{
+    width: 100%;
+    
+}
+#imagem-final {
+    width: 100%;
+    height: 100%;
+    margin-top: 20px;
+}
+#imagem-final img{
+    width: 500px;
+    height: 400px;
+    
+}
+.frase-sobre {
+    font-family: OCR A Std, monospace;
+    font-size: 50px;
+    color: black;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+}
+#texto-sobre{
+    display: flex;
+    text-align: justify;
+    width: 90%;
+    margin-top: 100px;
+    font-size: 1.4em;  
+    margin-left: 16px;
+}
+
+
+
+/* footer */
+
+footer{
+    display: flex;
+    background-color: #dae5e8;
+    height: 300px;
+    align-items: flex-end;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+
+.redes{
+    display: grid;
+    align-items: flex-start;
+    
+}
+#rede-social h2{
+    margin-left: 6px ;
+}
+
+#rede-social{
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+    
+
+}
+
+.direitos{
+    display: flex;
+    margin-right: 50px;
+}
+
+/* responsividade */
+
+@media screen and (max-width:780px){
+    .products{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #titulo-produto{
+        display: flex;
+    
+    }
+
+    .imagem{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        
+    }
+    .imagem-corrida{
+        object-fit: cover;
+        width: 100%;
+    }
+    .frase-efeito{
+        display: flex;
+        margin-top: 50px;
+    }
+    .comentarios {
+        display: flex;
+        flex-direction: column;   
+        margin-top: 200px;
+
+    }
+    .coments{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 90%;
+    }
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo-e-texto{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        position: static;
+    }
+    #home{
+        background-size: cover;
+        width: 100%;
+        
+    }
+    .login-icone{
+        display: flex;
+        margin-left: 160px;
+    }
+    .logo{
+        display: flex;
+        margin-right: 140px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .direitos{
+        text-align: center;
+        margin-left: 16px;
+    }
+    #imagem-final{
+        margin: 0;
+        width: 100%;
+
+        
+    }
+   
+}
